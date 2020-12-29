@@ -28,3 +28,10 @@
     background-color: #1b7eff8e;
   }
 }
+
+@include breakpoint-down (745) {
+  .button-primary {
+    font-size: 20px;
+    line-height: 15px;
+  }
+}
