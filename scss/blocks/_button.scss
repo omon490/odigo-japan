@@ -1,0 +1,30 @@
+.button {
+  background-color: transparent;
+  font-weight: 700;
+  border: none;
+  color: #fff;
+}
+
+.button-primary {
+  padding: 14px 35px;
+  font-size: 24px;
+  line-height: 29px;
+  background-color: #1B7DFF;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #1b7eff8e;
+  }
+}
+
+.button-secondary {
+  padding: 12px 19px;
+  font-size: 16px;
+  line-height: 19px;
+  background-color: #1B7DFF;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #1b7eff8e;
+  }
+}
