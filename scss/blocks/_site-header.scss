@@ -1,3 +1,19 @@
+.site-header__top--open {
+  position: relative;
+  z-index: 1;
+}
+
+.site-header__top--open .site-nav {
+  display: block;
+  position: absolute;
+  z-index: 15;
+  top: 0;
+  right: 0;
+  width: 100%;
+  padding: 75px 100px;
+  z-index: 11;
+  background-color: rgba(0, 0, 0, 0.9);
+}
 
 .site-header__wrapper {
   display: flex;
