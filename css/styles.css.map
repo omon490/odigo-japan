@@ -17,7 +17,7 @@
         "../scss/blocks/_logo.scss",
         "../scss/blocks/_site-main.scss",
         "../scss/blocks/_benefits-section.scss",
-        "../scss/blocks/_gallary-section.scss",
+        "../scss/blocks/_gallery-section.scss",
         "../scss/blocks/_site-footer.scss"
     ],
     "names": [],
