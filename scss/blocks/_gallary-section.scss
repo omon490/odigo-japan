@@ -1,15 +1,15 @@
-.gallary {
+.gallery {
   padding-top: 65px;
   padding-bottom: 65px;
 }
 
-.gallary__top {
+.gallery__top {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.gallary__heading {
+.gallery__heading {
   margin: 0;
   margin-bottom: 50px;
   font-size: 35px;
@@ -26,7 +26,7 @@
   }
 }
 
-.gallary__link {
+.gallery__link {
   text-decoration: none;
   color: #006DFE;
   margin-bottom: 50px;
@@ -46,14 +46,14 @@
   }
 }
 
-.gallary__list {
+.gallery__list {
   display: grid;
   grid-gap: 13px;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(9, 1fr);
 }
 
-.gallary__item {
+.gallery__item {
   position: relative;
   padding: 141px 108px;
   overflow: hidden;
@@ -84,7 +84,7 @@
   }
 }
 
-.gallary__img {
+.gallery__img {
   position: absolute;
   left: 0;
   top: 0;
@@ -98,7 +98,7 @@
   }
 }
 
-.gallary__text {
+.gallery__text {
   position: absolute;
   left: 20px;
   bottom: 10px;
@@ -110,17 +110,17 @@
 }
 
 @include breakpoint-down (950) {
-  .gallary__list {
+  .gallery__list {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(13, 1fr);
   }
 
-  .gallary__heading {
+  .gallery__heading {
     font-size: 25px;
     line-height: 32px;
   }
 
-  .gallary__item {
+  .gallery__item {
     &:nth-child(1) {
       grid-column: 1 / 2;
       grid-row: 1 / 5;
@@ -145,27 +145,27 @@
 }
 
 @include breakpoint-down (700) {
-  .gallary__text {
+  .gallery__text {
     font-size: 30px;
   }
 
-  .gallary__link {
+  .gallery__link {
     font-size: 14px;
   }
 }
 
 @include breakpoint-down (600) {
-  .gallary {
+  .gallery {
     padding-top: 35px;
     padding-bottom: 35px;
   }
 
-  .gallary__list {
+  .gallery__list {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(5, 1fr);
   }
 
-  .gallary__item {
+  .gallery__item {
     &:nth-child(1) {
       grid-column: 1 / 2;
       grid-row: 1 / 2;
@@ -190,11 +190,11 @@
 }
 
 @include breakpoint-down (500) {
-  .gallary__top {
+  .gallery__top {
     flex-direction: column;
   }
 
-  .gallary__heading {
+  .gallery__heading {
     margin-bottom: 20px;
     text-align: center;
 
@@ -203,13 +203,13 @@
     }
   }
 
-  .gallary__link {
+  .gallery__link {
     display: none;
   }
 }
 
 @include breakpoint-down (380) {
-  .gallary__heading {
+  .gallery__heading {
     font-size: 20px;
     line-height: 19px;
   }
