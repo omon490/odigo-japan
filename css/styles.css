@@ -1256,4 +1256,79 @@ img {
     line-height: 19px;
   }
 }
+
+.cities {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.cities__tottori-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 77px;
+}
+
+.cities__tottori-img {
+  display: block;
+}
+
+.cities__tottori-box {
+  max-width: 520px;
+  margin-left: auto;
+}
+
+.cities__tottori-heading {
+  margin: 0;
+  margin-bottom: 85px;
+  font-size: 30px;
+  line-height: 40px;
+  color: #102746;
+}
+
+.cities__tottori-text {
+  margin: 0;
+  margin-bottom: 58px;
+  color: #102746;
+}
+
+.cities__tottori-link {
+  text-decoration: none;
+  display: block;
+  color: #006DFE;
+}
+
+.cities__tottori-link::after {
+  content: "";
+  width: 33px;
+  height: 8px;
+  display: inline-block;
+  margin-left: 26px;
+  background-image: url("../../img/arrow-right.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.cities__kyoto-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cities__kyoto-heading {
+  max-width: 357px;
+  margin-bottom: 45px;
+}
+
+.cities__kyoto-box {
+  max-width: 520px;
+  margin-right: auto;
+}
 /*# sourceMappingURL=styles.css.map */
