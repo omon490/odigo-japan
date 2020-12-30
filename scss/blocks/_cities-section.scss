@@ -14,6 +14,8 @@
 }
 
 .cities__tottori-img {
+  max-width: 597px;
+  width: 100%;
   display: block;
 }
 
@@ -67,4 +69,120 @@
 .cities__kyoto-box {
   max-width: 520px;
   margin-right: auto;
+}
+
+@include breakpoint-down (1187) {
+  .cities__tottori-img {
+    max-width: 500px;
+  }
+}
+
+@include breakpoint-down (1090) {
+  .cities__tottori-img {
+    max-width: 490px;
+  }
+
+  .cities__tottori-box {
+    max-width: 490px
+  }
+
+  .cities__tottori-heading {
+    margin-bottom: 50px;
+  }
+}
+
+@include breakpoint-down (1050) {
+  .cities__tottori-box {
+    max-width: 450px
+  }
+
+  .cities__kyoto-box {
+    max-width: 450px;
+  }
+
+  .cities__kyoto-heading {
+    margin-bottom: 30px;
+  }
+}
+
+@include breakpoint-down (1000) {
+  .cities__tottori-img {
+    max-width: 450px;
+  }
+
+  .cities__tottori-heading {
+    margin-bottom: 30px;
+  }
+
+  .cities__tottori-text {
+    margin-bottom: 30px;
+  }
+}
+
+@include breakpoint-down (950) {
+  .cities__tottori-img {
+    max-width: 400px;
+  }
+}
+
+@include breakpoint-down (900) {
+  .cities__tottori-box {
+    max-width: 400px;
+    padding-left: 20px;
+  }
+
+  .cities__kyoto-box {
+    max-width: 400px;
+    padding-right: 20px;
+  }
+
+  .cities__tottori-heading {
+    font-size: 24px;
+  }
+
+  .cities__kyoto-heading {
+    max-width: 300px;
+    margin-bottom: 10px;
+  }
+
+  .cities__tottori-text {
+    margin-bottom: 10px;
+  }
+}
+
+@include breakpoint-down (790) {
+  .cities {
+    padding-bottom: 35px;
+  }
+
+  .cities__tottori-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  .cities__tottori-box {
+    margin: 0;
+    padding: 0;
+    max-width: 700px;
+  }
+
+  .cities__tottori-img {
+    margin-bottom: 15px;
+    max-width: 100%;
+  }
+
+  .cities__kyoto-wrapper {
+    flex-direction: column;
+  }
+
+  .cities__kyoto-box {
+    order: 1;
+    margin: 0;
+    max-width: 700px;
+  }
+
+  .cities__kyoto-heading {
+    margin-bottom: 30px;
+  }
 }
