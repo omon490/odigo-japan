@@ -1443,4 +1443,122 @@ img {
     margin-bottom: 30px;
   }
 }
+
+.visit {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.visit__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: -11px;
+}
+
+.visit__item {
+  max-width: 391px;
+  margin-right: 50px;
+}
+
+.visit__item:nth-child(1),
+.visit__item:nth-child(2),
+.visit__item:nth-child(3) {
+  margin-bottom: 58px;
+}
+
+.visit__item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.visit__box {
+  position: relative;
+  z-index: 1;
+}
+
+.visit__img {
+  display: block;
+  width: 100%;
+  margin-bottom: 45px;
+}
+
+.visit__info-box {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px 25px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.visit__info-text {
+  margin: 0;
+  margin-right: auto;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.visit__info-number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  margin-right: 14px;
+}
+
+.visit__info-number:after {
+  content: "";
+  width: 16px;
+  height: 15px;
+  display: block;
+  margin-left: 5px;
+  background-image: url("../../img/heart-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.visit__info-comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.visit__info-comment:after {
+  content: "";
+  width: 14px;
+  height: 14px;
+  display: block;
+  margin-top: 3px;
+  margin-left: 5px;
+  background-image: url("../../img/message-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.visit__about-box {
+  position: relative;
+}
+
+.visit__about-text {
+  margin-bottom: 30px;
+}
 /*# sourceMappingURL=styles.css.map */
