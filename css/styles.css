@@ -1485,6 +1485,17 @@ img {
   display: block;
   width: 100%;
   margin-bottom: 45px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 0.7s ease;
+  transition: -webkit-transform 0.7s ease;
+  transition: transform 0.7s ease;
+  transition: transform 0.7s ease, -webkit-transform 0.7s ease;
+}
+
+.visit__img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .visit__info-box {
