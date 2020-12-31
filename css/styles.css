@@ -1633,7 +1633,7 @@ img {
 
 .aside-odigo {
   height: 100vh;
-  background-image: url("../../img/aside-img/aside-img.jpg");
+  background-image: url("../img/aside-img/aside-img.jpg");
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
@@ -1664,6 +1664,12 @@ img {
   .aside-odigo__play-img {
     width: 52px;
     height: 52px;
+  }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .aside-odigo {
+    background-image: url("../img/aside-img/aside-img@2x.jpg");
   }
 }
 

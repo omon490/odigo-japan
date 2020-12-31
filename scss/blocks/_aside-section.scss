@@ -1,7 +1,7 @@
 
 .aside-odigo {
   height: 100vh;
-  background-image: url("../../img/aside-img/aside-img.jpg");
+  background-image: url("../img/aside-img/aside-img.jpg");
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
@@ -32,5 +32,11 @@
   .aside-odigo__play-img {
     width: 52px;
     height: 52px;
+  }
+}
+
+@include retina-bg {
+  .aside-odigo {
+    background-image: url("../img/aside-img/aside-img@2x.jpg");
   }
 }
