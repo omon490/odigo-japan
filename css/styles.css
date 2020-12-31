@@ -474,7 +474,7 @@ img {
 }
 
 .site-header__top--open .site-header__toggler {
-  background-image: url("../../img/gamburger-close.svg");
+  background-image: url("../img/gamburger-close.svg");
 }
 
 .site-header__wrapper {
@@ -486,7 +486,7 @@ img {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 100vh;
-  background-image: url("../../img/hero-img/hero-img.jpg");
+  background-image: url("../img/hero-img/hero-img.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -592,7 +592,7 @@ img {
   height: 20px;
   -webkit-transform: translateX(25px) translateY(10px);
           transform: translateX(25px) translateY(10px);
-  background-image: url("../../img/circle.svg");
+  background-image: url("../img/circle.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -706,6 +706,12 @@ img {
 @media only screen and (max-width: 350px) {
   .site-header__form {
     display: none;
+  }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .site-header__wrapper {
+    background-image: url("../img/hero-img/hero-img@2x.jpg");
   }
 }
 
@@ -1034,7 +1040,7 @@ img {
   height: 8px;
   display: inline-block;
   margin-left: 26px;
-  background-image: url("../../img/arrow-right.svg");
+  background-image: url("../img/arrow-right.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -1324,7 +1330,7 @@ img {
   height: 8px;
   display: inline-block;
   margin-left: 26px;
-  background-image: url("../../img/arrow-right.svg");
+  background-image: url("../img/arrow-right.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
