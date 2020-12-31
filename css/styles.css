@@ -1685,6 +1685,17 @@ img {
 .site-footer__link {
   display: block;
   margin-right: auto;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+}
+
+.site-footer__link:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .site-footer__img {
