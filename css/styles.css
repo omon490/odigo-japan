@@ -1630,4 +1630,40 @@ img {
     margin-right: auto;
   }
 }
+
+.aside-odigo {
+  height: 100vh;
+  background-image: url("../../img/aside-img/aside-img.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.aside-odigo__link {
+  display: block;
+}
+
+.aside-odigo__play-img {
+  display: block;
+  width: 112px;
+  height: 112px;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-60%) translateY(-10%);
+          transform: translateX(-60%) translateY(-10%);
+}
+
+@media only screen and (max-width: 900px) {
+  .aside-odigo {
+    height: 50vh;
+  }
+  .aside-odigo__play-img {
+    width: 52px;
+    height: 52px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
