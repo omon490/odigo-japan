@@ -1,0 +1,40 @@
+
+.site-footer {
+  padding-top: 118px;
+  padding-bottom: 118px;
+  background-color: #0E1D28;
+}
+
+.site-footer__wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+
+.site-footer__link {
+  display: block;
+  margin-right: auto;
+}
+
+.site-footer__img {
+  display: block;
+}
+
+.site-footer__list {
+  @include reset-list;
+}
+
+.site-footer__item {
+  margin-left: 140px;
+  margin-bottom: 3px;
+}
+
+.site-footer__item:nth-child(1) {
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.site-footer__item-link {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
