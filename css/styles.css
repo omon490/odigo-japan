@@ -1691,6 +1691,15 @@ img {
   display: block;
 }
 
+.site-footer__list-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
 .site-footer__list {
   padding: 0;
   margin: 0;
@@ -1711,5 +1720,91 @@ img {
   display: block;
   text-decoration: none;
   color: #fff;
+}
+
+@media only screen and (max-width: 850px) {
+  .site-footer {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  .site-footer__item {
+    margin-left: 80px;
+  }
+}
+
+@media only screen and (max-width: 715px) {
+  .site-footer__item {
+    margin-left: 60px;
+  }
+}
+
+@media only screen and (max-width: 655px) {
+  .site-footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .site-footer__wrapper {
+    text-align: center;
+  }
+  .site-footer__link {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  .site-footer__item {
+    margin-left: 0;
+  }
+  .site-footer__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .site-footer__list-wrapper {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .site-footer__list:nth-child(2) {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .site-footer__list:nth-child(2) {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .site-footer__list-wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .site-footer__list:nth-child(1) {
+    margin-left: 40px;
+  }
+  .site-footer__list:nth-child(3) {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 348px) {
+  .site-footer__list:nth-child(1) {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 328px) {
+  .site-footer__list:nth-child(1) {
+    margin-left: 10px;
+  }
+  .site-footer__list:nth-child(2) {
+    margin-right: 20px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
