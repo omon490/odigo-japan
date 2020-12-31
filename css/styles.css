@@ -342,7 +342,7 @@ template {
 }
 
 @font-face {
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -350,7 +350,7 @@ template {
 }
 
 @font-face {
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -1557,7 +1557,7 @@ img {
   height: 15px;
   display: block;
   margin-left: 5px;
-  background-image: url("../../img/heart-icon.svg");
+  background-image: url("../img/heart-icon.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -1580,7 +1580,7 @@ img {
   display: block;
   margin-top: 3px;
   margin-left: 5px;
-  background-image: url("../../img/message-icon.svg");
+  background-image: url("../img/message-icon.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;

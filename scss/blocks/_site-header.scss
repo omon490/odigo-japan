@@ -16,14 +16,14 @@
 }
 
 .site-header__top--open .site-header__toggler {
-  background-image: url("../../img/gamburger-close.svg");
+  background-image: url("../img/gamburger-close.svg");
 }
 
 .site-header__wrapper {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background-image: url("../../img/hero-img/hero-img.jpg");
+  background-image: url("../img/hero-img/hero-img.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -98,7 +98,7 @@
   width: 20px;
   height: 20px;
   transform: translateX(25px) translateY(10px);
-  background-image: url("../../img/circle.svg");
+  background-image: url("../img/circle.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -208,5 +208,11 @@
 @include breakpoint-down (350) {
   .site-header__form {
     display: none;
+  }
+}
+
+@include retina-bg {
+  .site-header__wrapper {
+    background-image: url("../img/hero-img/hero-img@2x.jpg");
   }
 }
