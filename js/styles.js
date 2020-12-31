@@ -33,36 +33,42 @@ elMenuToggler.addEventListener(`click`, function() {
 // var elCards = [
 //   {
 //     elImg: `img/nagoya.jpg`,
+//     elImgRetina: `img/nagoya@2x.jpg`,
 //     elTitle: `Nagoya`,
 //     elLikes: `221`,
 //     elMessage: `50`
 //   },
 //   {
 //     elImg: `img/nigata.jpg`,
+//     elImgRetina: `img/nigata@2x.jpg`,
 //     elTitle: `Niigata`,
 //     elLikes: `210`,
 //     elMessage: `20`
 //   },
 //   {
 //     elImg: `img/osaka.jpg`,
+//     elImgRetina: `img/osaka@2x.jpg`,
 //     elTitle: `Osaka`,
 //     elLikes: `245`,
 //     elMessage: `90`
 //   },
 //   {
 //     elImg: `img/saitama.jpg`,
+//     elImgRetina: `img/saitama@2x.jpg`,
 //     elTitle: `Saitama`,
 //     elLikes: `411`,
 //     elMessage: `80`
 //   },
 //   {
 //     elImg: `img/ueno.jpg`,
+//     elImgRetina: `img/ueno@2x.jpg`,
 //     elTitle: `Ueno`,
 //     elLikes: `151`,
 //     elMessage: `35`
 //   },
 //   {
 //     elImg: `img/shibuya.jpg`,
+//     elImgRetina: `img/shibuya@2x.jpg`,
 //     elTitle: `Shibuya`,
 //     elLikes: `154`,
 //     elMessage: `75`
@@ -79,6 +85,7 @@ elMenuToggler.addEventListener(`click`, function() {
 // var elCardsItem = elCardsTemplate.cloneNode(true);
 
 // $_(`.js-visit__img`, elCardsItem).src = card.elImg;
+// $_(`.js-visit__img`, elCardsItem).srcset = `${card.elImg}, ${card.elImgRetina} 2x`;
 // $_(`.js-visit__info-text`, elCardsItem).textContent = card.elTitle;
 // $_(`.js-visit__info-number`, elCardsItem).textContent = card.elLikes;
 // $_(`.js-visit__info-comment`, elCardsItem).textContent = card.elMessage;
